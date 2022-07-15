@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Infosys Limited Recruiment</title>
+
+	<link rel="stylesheet" type="text/css" href="team3.css">
+
+	
+
+</head>
+
+<body>
+	<div class="team3">
+
+		<div class="header-logo" style=" background: white; padding-top: 1%;">		
+					<center><img alt="Survey Logo" style="max-width: 100%; width: auto;
+					max-height:80px; " src="logo.png"></center>
+		</div>
+
+		<div class="box" style=" width: 97% ; max-height:100%; background: rgb(207,226,243); opacity: unset; color: black; box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 8px; padding-right: 3%;padding-left: 3%; ">
+
+			<div class="innercontent" style="padding-left: ;justify-content: flex-start;">
+				<p style="font-size: 20px; padding-top: 1.5%;"><b>Infosys Limited Recruiment</b></p>
+				<p style="font-size: 20px" >Electronics City,Hosur Road,Bangolore-560100,India</p>
+				<b style="font-size: 21px;">APPLICATION FOR EMPLOYMENT</b>
+				<p style="font-size: 18px;">Association with Infosys</p>
+			</div>	
+
+
+				<div class="whitebg" style="background-color: white; margin: auto;  border-radius: 1px; color: black; font-family: Roboto; font-weight: normal; margin: auto; padding-top:0.5%;padding-left: 5%; padding-right: 5px;">
+
+					<div class="questions">
+							<div style="width: 100%; font-size: 20px ; padding-top: 10px;" id="1" ><b>1.Have you undergone any selection process with Infosys Limited or Infosys subsidiaries (EdgeVerve Systems, Infosys BPM ,Infosys Consulting,Infosys Public Services, Skava Systems) previously?</p></b></div>
+					</div>
+
+						<div class="btns">
+                    			<button onclick="yes()" id="yes"><img src="tick.png" style="height: 15px;width:15px;" >YES</button>
+                    			<button onclick="no()" id="no"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+               			</div><br><br>
+
+
+               			<div class="blocks" id="blocks" >
+
+               				<div class="container">
+				           <div class="head">
+				            <h4>2.For INFOSYS Limited have you</h4>
+				           </div>
+				           <div class="first">
+				            <div class="btns">
+				            <h4>Taken any Test?</h4>
+				            <button id="g" onclick="validate()"><img src="tick.png" style="height: 15px;width:15px;">YES</button>
+				            <button id="h" onclick="validate4()"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+				            </div>
+				             <div   class="k" id="kk" style="margin-left:350px;">
+				                <h4>Test Date</h4>
+				                <label for="">Date*</label><br>
+				                <input type="date" >
+				             </div>
+				           </div>
+
+				    
+				           <div class="second">
+				               <div class="btns">
+				            <h4>Selected For an Interview?</h4>
+				            <button id="r" onclick="validate1()"><img src="tick.png" style="height: 15px;width:15px;">YES</button>
+				            <button  id="b" onclick="validate5()"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+				               </div>
+				            
+				              <div  class="k" id="kkk" style="margin-left:310px;">
+				                <h4>Date Of Interview</h4>
+				                <label for="">Date*</label><br>
+				                <input type="date" class="jf">
+				              </div>
+				           </div>
+				           
+				           <div class="third">
+				            <div class="btns">
+				            <h4>Recieved an offer?</h4>
+				            <button id="c" onclick="validate2()"><img src="tick.png" style="height: 15px;width:15px;">YES</button>
+				            <button id="d" onclick="validate6()"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+				            </div>
+				            
+				            <div  class="k" id="kkkk" style="margin-left:350px;">
+				                <h4>Date of Offer</h4>
+				                <label for="">Date*</label><br>
+				                <input type="date" class="jf">
+				            </div>
+				           </div>
+				           <div class="fourth">
+				    
+				            <div class="btns">
+				            <h4>Joined?</h4>
+				            <button id="e" onclick="validate3()"><img src="tick.png" style="height: 15px;width:15px;">YES</button>
+				            <button id="f" onclick="validate7()"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+				            </div>
+				            
+				            <div  class="k" id="kkkkk" style="margin-left:350px;">
+				                <h4>Date of Joining</h4>
+				                <label for="">Date*</label><br>
+				                <input type="date" class="jf">
+				            </div>
+
+				           </div>
+        				</div><br><br>
+
+        				<div class="container">
+						           <div class="head">
+						            <h3>3.For Infosys subsidiaries (EdgeVerve Systems,Infosys BPM,Infosys Consulting,Infosys Public Services,Skava
+						                Systems)have you</h3>
+						           </div>
+						           <div class="first">
+						            <div class="btns">
+						            <h4>Taken any Test?</h4>
+						            <button id="i" onclick="validate8()"><img src="tick.png" style="height: 15px;width:15px;" >YES</button>
+						            <button id="j" onclick="validate9()"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+						            </div>
+						             <div   class="a" id="aa" style="margin-left:350px;">
+						                <h4>Test Date</h4>
+						                <label for="">Date*</label><br>
+						                <input type="date" >
+						             </div>
+						           </div>
+
+						    
+						           <div class="second">
+						               <div class="btns">
+						            <h4>Selected For an Interview?</h4>
+						            <button id="q" onclick="validate10()"><img src="tick.png" style="height: 15px;width:15px;">YES</button>
+						            <button  id="l" onclick="validate11()"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+						               </div>
+						            
+						              <div  class="a" id="aaa" style="margin-left:310px;">
+						                <h4>Date Of Interview</h4>
+						                <label for="">Date*</label><br>
+						                <input type="date" class="jf">
+						              </div>
+						           </div>
+						           
+						           <div class="third">
+						            <div class="btns">
+						            <h4>Recieved an offer?</h4>
+						            <button id="m" onclick="validate12()"><img src="tick.png" style="height: 15px;width:15px;">YES</button>
+						            <button id="n" onclick="validate13()"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+						            </div>
+						            
+						            <div  class="a" id="aaaa" style="margin-left:350px;">
+						                <h4>Date of Offer</h4>
+						                <label for="">Date*</label><br>
+						                <input type="date" class="jf">
+						            </div>
+						           </div>
+						           <div class="fourth">
+						    
+						            <div class="btns">
+						            <h4>Joined?</h4>
+						            <button id="o" onclick="validate14()"><img src="tick.png" style="height: 15px;width:15px;">YES</button>
+						            <button id="p" onclick="validate15()"><img src="cancel.png" style="height: 15px;width:15px;">NO</button>
+						            </div>
+						            
+						            <div  class="a" id="aaaaa" style="margin-left:350px;">
+						                <h4>Date of Joining</h4>
+						                <label for="">Date*</label><br>
+						                <input type="date" class="jf">
+						            </div>
+
+						           </div>
+						    </div><br><br>
+
+					
+
+				  </div>
+
+
+				</div>
+
+				<br><br><br>
+
+				<div class="pointers" style="display: flex; padding-left: 350px; width: 100%; flex-direction: row; box-sizing: border-box;">
+					<div   style="cursor: pointer;">
+						<button   style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 255) ;margin: 0; min-width: 175px; line-height: 36px;padding: 0 16px; border-radius: 4px;">
+
+							<span onclick="#" > PREVIOUS PAGE </span>
+
+						</button>
+						<button style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 255);margin: 0; min-width: 140px; line-height: 36px;padding: 0 16px; border-radius: 4px;">
+
+								<span onclick="#"> NEXT PAGE </span>
+						</button>
+
+					</div>
+				</div>
+				<br><br><br><br><br>
+
+		</div>
+
+				<!-- <div class="footer" style="color: black; background-color:white;padding-left: 8.5%;display:inline;"><br>
+					<b style="float:left;">38 of 99 answered</b>
+					<center><b style="margin:0 auto;">Estimated Time : 28 mins</b></center>
+					<button id="cursor" style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 255);margin: 0; min-width: 140px; line-height: 20px; border-radius: 4px; float:right;">
+
+								 NEXT PAGE
+						</button>
+				</div> -->
+		</div>
+					
+<script src="team3.js"></script>
+
+</body>
+</html>
